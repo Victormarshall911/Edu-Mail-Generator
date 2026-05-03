@@ -38,7 +38,7 @@ def main():
         is_chrome_there = 1
         installed_pr.append('Chrome')
         installed_pr.append('chrome_undetected (For easy captcha)')
-        setup_Chrome(chrome_ver)
+        #setup_Chrome(chrome_ver)
     else:
         is_chrome_there = 0
         print('Chrome isn\'t installed')
